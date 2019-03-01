@@ -20,7 +20,7 @@ Compatibility
 
 [2]: GMSK profiles only
 
-[3]: Firefox's WebAudio implementation resamples audio input to 32kHz, which limits all audio received to 16kHz and below. This means the ultrasonic profile cannot be used for Firefox receivers. Additionally, the resampler used by Firefox produces strong audio distortion, which makes reception by some profiles difficult. However, the audible profiles work well. For the most recent information on this limitation, refer to [Bug 953265](https://bugzilla.mozilla.org/show_bug.cgi?id=953265).
+[3]: Firefox's WebAudio implementation resamples audio input to 32kHz, which limits all audio received to 16kHz and below. This means the ultrasonic profile cannot be used for Firefox receivers. Additionally, the resampler used by Firefox produces strong audio distortion, which makes reception by some profiles difficult. However, the audible profiles work well. For the most recent information on this limitation.
 
 [4]: Safari does not support `getUserMedia` or microphone input in any capacity.
 
