@@ -28,8 +28,6 @@ Compatibility
 
 Usage
 --------
-The full documentation is available [here](http://quiet.github.io/quiet-js/docs/).
-
 Quiet-js includes a blob of libquiet compiled by emscripten as well as a javascript binding for ease of use. The bindings must be loaded before the compiled portion. Below is the recommended way to include Quiet in your project.
 
 ```
@@ -42,6 +40,6 @@ Additionally, the emscripten compiled portion requires a memory initializer, `qu
 
 **It is strongly recommended to also include libfec.js. An emscripten-compiled version of libfec may be found [here](https://github.com/quiet/libfec/releases) or with `npm install libfec`.** If libfec is not included, then quiet.js will not be able to use any profiles which use convolutional codes or Reed-Solomon error correction.
 
-For a complete example demonstrating ultrasonic text transmission and reception, see [this example](https://github.com/quiet/quiet-js/tree/master/examples/text).
+For a complete example demonstrating ultrasonic text transmission and reception.
 
 
